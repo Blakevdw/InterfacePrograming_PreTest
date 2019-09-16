@@ -1,3 +1,10 @@
-<p>
-  movie-info-component works!
-</p>
+<div *ngIf="MovieTitle">
+
+    <h2>{{Movie.name | uppercase}} Details</h2>
+    <div>
+      <label>name:
+        <input [(ngModel)]="Movie.name" placeholder="name"/>
+      </label>
+    </div>
+  
+  </div>

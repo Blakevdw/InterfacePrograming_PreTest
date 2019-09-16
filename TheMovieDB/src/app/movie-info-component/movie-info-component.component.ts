@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './movie-info-component.component.html',
   styleUrls: ['./movie-info-component.component.css']
 })
-export class MovieInfoComponentComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class MovieInfoComponentComponent {
+  MovieTitle = 'Dragon Movie 89';
 }
