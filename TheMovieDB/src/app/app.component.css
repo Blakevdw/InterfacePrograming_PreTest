@@ -1,0 +1,32 @@
+.container {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+    width: 700px;
+    padding: 50px;
+    background-color: #111C24;
+    height:400px;
+ 
+}
+
+.TopTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7DD07A;
+    font-size: 30px;
+}
+
+.Bodytext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7DD07A;
+    font-size: 20px;
+}
+
+.MainText {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 15px;
+}
+
+.MovieImg {
+    float: left; 
+}
